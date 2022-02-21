@@ -23,4 +23,4 @@ const userSchema = new mongoose.Schema(
   { timestamps: true }
 );
 // while  using mongoose to manage time use timestramp in mongoose
-export const User = mongoose.model("Users", userSchema);
+export const User = mongoose.model("users", userSchema);

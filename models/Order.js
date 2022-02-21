@@ -9,7 +9,7 @@ const orderSchema = new mongoose.Schema(
         },
         quantity: {
           type: Number,
-          defaault: 1,
+          default: 1,
         },
       },
     ],
@@ -28,4 +28,4 @@ const orderSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-export default orderSchema = mongoose.model("Order", orderSchema);
+export const Order = mongoose.model("Order", orderSchema);
